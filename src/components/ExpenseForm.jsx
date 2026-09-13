@@ -14,7 +14,7 @@ function ExpenseForm({ onAddExpense }) {
       name: expenseName,
       amount: Number(amount),
       category,
-      date: new Date(date),
+      date: date,
     };
 
     onAddExpense(newExpense);
